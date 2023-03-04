@@ -1,0 +1,39 @@
+<html>
+    <body>
+<?php
+$euro = "25.20";
+$dolar = "21.5";
+$dirham = "2.3";
+$pe = (2898/$euro);
+$d = (46*$euro/$dirham);
+$dl = (252*$dirham/$dolar);
+$to = (5000-((2898) + ($d*$dirham) + ($dl*$dolar)));
+ echo "<h1>El viaje</h1>
+<pre><b>Cristina</b> es una chica que consigue una invitación para ir de intercambio a estudiar a España,ella emocionada por la noticia se 
+pone a investigar salidas de vuelos y algunos lugares que pudiera ir a conocerdurante su estadía, sabiendo que su vuelo para ir a 
+España despega de EU inicia a calcular los costos y tipo de moneda que utiliza en cada uno de los sitios que tiene pensado ir.
+
+Los tipos de moneda que ella utilizara son <u>Dolares</u> para su vuelo. <u>Euros</u> para su estadia en España y <u>Dirham marroqui</u>
+ya que tiene pensado ir a marruecos de paseo.
+
+Euro $euro pesos
+Dolar $dolar 
+Dirham marroqui $dirham pesos
+
+Presupuesto contemplado para recuerdos de esos lugares es de 5000 pesos en total, en<b> España</b>va a gastar 2898 pesos, en
+<b>Marruecos</b> tiene pensado gastar 46 euros, de regreso sequiere comprar una hamburguesa en <b> San Diego</b> y un recuerdo con 
+presupuesto de 252 Driham marroqui
+
+•¿Cuantos euros tiene para comprar en España? 
+•¿cuantos Dirham marroqui tiene para comprar en Marruecos? 
+•¿Cuantos dolares tiene para comprar en EU? 
+•¿Cuanto dinero mexicano le queda para los tacos? 
+
+Respuesta 1: <i><b>$pe</b></i>
+Respuesta 2: <i><b>$d</b></i>
+Respuesta 3: <i><b>$dl</b></i>
+Respuesta 4: <i><b>$to</b></i>
+</pre><br>";
+?>
+</body>
+    </html>
